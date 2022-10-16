@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SMVD 2021 졸업전시회 Entry:참여자들</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./gustbook.css">
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/zepto@1.2.0/dist/zepto.js,npm/zepto@1.2.0/src/fx.js?ver=5.3.2"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.js?ver=5.3.2"></script>
+
+
+    </head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+    <!-- <header class="header">
+        <div class="ezkorry-roller">
+                <span class="header-item">
+                    <a href="/2021">
+                        <span>SMVD 2021 GRAD SHOW</span>
+                        <img class="header-polygon" src="../assets/images/header_polygon.svg" alt="little polygon"/>
+                    </a>
+                </span>
+        </div>
+        <div class="part"> -->
+            <!-- back 버튼 클릭 시 list url로 넘어가야 합니다. 현재는 exhibition_list.html 파일로만 넘겨주고 있습니다.-->
+            <!-- <button class="back-btn">
+                <a href="/2021/exhibition"><img src="../assets/images/back_btn.svg" alt="go back"/></a>
+            </button>
+            <h1 class="menu-title">Guestbook</h1>
+        </div>
+    </header> -->
+    <main class="guestbook">
+        <article class="guestbook-wrapper">
+            <!-- 학생을 필터링/검색하는 영역 -->
+            <section class="search-std">
+                <select name="filter_name">
+                    <!-- option에 등록해둔 학생 명단을 출력 -->
+                    <option value="">모두</option>
+					                    <!-- <option value="403">강경지</option>
+                                       <option value="412">강수연</option>
+                                       <option value="414">구자영</option>
+                                       <option value="420">권리원</option>
+                                       <option value="451">권지엽</option>
+                                       <option value="448">김가영</option>
+                                       <option value="452">김기슬</option>
+                                       <option value="453">김민아</option>
+                                       <option value="455">김민주</option>
+                                       <option value="456">김성경</option>
+                                       <option value="457">김수연</option>
+                                       <option value="454">김윤아</option>
+                                       <option value="427">김은수</option>
+                                       <option value="428">김지원</option>
+                                       <option value="425">김지인</option>
+                                       <option value="423">김하열음</option>
+                                       <option value="424">김하영</option>
+                                       <option value="421">도예원</option>
+                                       <option value="458">리영기</option>
+                                       <option value="402">박연서</option>
+                                       <option value="404">박주연</option>
+                                       <option value="429">방현지</option>
+                                       <option value="443">봉아연</option>
+                                       <option value="465">선민경</option>
+                                       <option value="464">송여빈</option>
+                                       <option value="450">송윤영</option>
+                                       <option value="435">신효경</option>
+                                       <option value="430">안서현</option>
+                                       <option value="433">안윤금</option>
+                                       <option value="436">오영은</option>
+                                       <option value="444">윤수인</option>
+                                       <option value="445">윤혜원</option>
+                                       <option value="446">이가영</option>
+                                       <option value="447">이다경</option>
+                                       <option value="413">이다은</option>
+                                       <option value="440">이세림</option>
+                                       <option value="442">이세연</option>
+                                       <option value="418">이수인</option>
+                                       <option value="415">이신영</option>
+                                       <option value="459">이정아</option>
+                                       <option value="419">이정현</option>
+                                       <option value="460">이지수</option>
+                                       <option value="461">이해인</option>
+                                       <option value="437">이혜원</option>
+                                       <option value="441">임채원</option>
+                                       <option value="438">임현진</option>
+                                       <option value="439">장민주</option>
+                                       <option value="405">정소이</option>
+                                       <option value="463">정희진</option>
+                                       <option value="417">주미연</option>
+                                       <option value="432">채규희</option>
+                                       <option value="409">천예은</option>
+                                       <option value="426">최아름</option>
+                                       <option value="431">최현진</option>
+                                       <option value="410">최효영</option>
+                                       <option value="406">추유림</option>
+                                       <option value="407">한다현</option>
+                                       <option value="408">한승빈</option>
+                                       <option value="411">한채율</option>
+                                       <option value="416">현혜정</option>
+                                       <option value="422">홍성혜</option> -->
+                                   </select>
+                에게 작성한 메세지
+            </section>
+            <!-- 방명록의 리스트가 나타나는 영역 -->
+            <section class="guestbook-list">
+            
+           
+
+               
+            </section>
+
+            <!-- 방명록을 작성하는 영역 -->
+            <section class="guestbook-create">
+                <form class="guestbook-create-form">
+                    <div class="create-select">
+                    To.&nbsp;&nbsp;
+                        <select name="select_name">
+                            <!-- option에 등록해둔 학생 명단을 출력 -->
+                            <option value="">모두</option>
+                           							<!-- <option value="403">강경지</option>
+						   							<option value="412">강수연</option>
+						   							<option value="414">구자영</option>
+						   							<option value="420">권리원</option>
+						   							<option value="451">권지엽</option>
+						   							<option value="448">김가영</option>
+						   							<option value="452">김기슬</option>
+						   							<option value="453">김민아</option>
+						   							<option value="455">김민주</option>
+						   							<option value="456">김성경</option>
+						   							<option value="457">김수연</option>
+						   							<option value="454">김윤아</option>
+						   							<option value="427">김은수</option>
+						   							<option value="428">김지원</option>
+						   							<option value="425">김지인</option>
+						   							<option value="423">김하열음</option>
+						   							<option value="424">김하영</option>
+						   							<option value="421">도예원</option>
+						   							<option value="458">리영기</option>
+						   							<option value="402">박연서</option>
+						   							<option value="404">박주연</option>
+						   							<option value="429">방현지</option>
+						   							<option value="443">봉아연</option>
+						   							<option value="465">선민경</option>
+						   							<option value="464">송여빈</option>
+						   							<option value="450">송윤영</option>
+						   							<option value="435">신효경</option>
+						   							<option value="430">안서현</option>
+						   							<option value="433">안윤금</option>
+						   							<option value="436">오영은</option>
+						   							<option value="444">윤수인</option>
+						   							<option value="445">윤혜원</option>
+						   							<option value="446">이가영</option>
+						   							<option value="447">이다경</option>
+						   							<option value="413">이다은</option>
+						   							<option value="440">이세림</option>
+						   							<option value="442">이세연</option>
+						   							<option value="418">이수인</option>
+						   							<option value="415">이신영</option>
+						   							<option value="459">이정아</option>
+						   							<option value="419">이정현</option>
+						   							<option value="460">이지수</option>
+						   							<option value="461">이해인</option>
+						   							<option value="437">이혜원</option>
+						   							<option value="441">임채원</option>
+						   							<option value="438">임현진</option>
+						   							<option value="439">장민주</option>
+						   							<option value="405">정소이</option>
+						   							<option value="463">정희진</option>
+						   							<option value="417">주미연</option>
+						   							<option value="432">채규희</option>
+						   							<option value="409">천예은</option>
+						   							<option value="426">최아름</option>
+						   							<option value="431">최현진</option>
+						   							<option value="410">최효영</option>
+						   							<option value="406">추유림</option>
+						   							<option value="407">한다현</option>
+						   							<option value="408">한승빈</option>
+						   							<option value="411">한채율</option>
+						   							<option value="416">현혜정</option>
+						   							<option value="422">홍성혜</option> -->
+						                           </select>
+                    </div>
+                    <!-- 내용을 작성하는 칸 -->
+                    <textarea class="text-input" maxLength='300' placeholder="방명록을 300자 이내로 작성해주세요."></textarea>
+                    <!-- 제출 버튼 -->
+                    <button type="submit" class="submit-guestbook">
+                        <svg
+                            width="37"
+                            height="31"
+                            viewBox="0 0 37 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                class="submit-arrow"
+                                d="M35.4398 17.0666C36.2209 16.2855 36.2209 15.0192 35.4398 14.2381L22.7119 1.51021C21.9309 0.729159 20.6645 0.729159 19.8835 1.51021C19.1025 2.29126 19.1025 3.55759 19.8835 4.33864L31.1972 15.6523L19.8835 26.9661C19.1025 27.7471 19.1025 29.0134 19.8835 29.7945C20.6645 30.5755 21.9309 30.5755 22.7119 29.7945L35.4398 17.0666ZM0 17.6523H34.0256V13.6523H0V17.6523Z"
+                                fill="current"/>
+                        </svg>
+                    </button>
+                </form>
+            </section>
+        </article>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="./header.js"></script>
+
+<script>
+
+getList('');
+
+$('[name="filter_name"]').change(function(){
+	var to_user_no = $(this).val();
+	getList(to_user_no);
+});
+function getList(to_user_no){
+	$.ajax({
+		url : 'http://127.0.0.1:5502/smvd-guest/index.html',
+		data: {to_user_no : to_user_no,mode:'list'},
+		type:'POST',
+		dataType:'JSON',
+		success: function(data){
+			var len = data.list.length
+			var guestbook = null
+			var template = [];
+			for(var i=0;i<len;i++){
+			guestbook = data.list[i];
+			if(guestbook.user_name==''||guestbook.user_name==null){
+				guestbook.user_name ='모두';
+				
+			}
+		
+				
+			template.push('<article class="guestbook-item">\
+                    <div class="message-info">\
+                        <!-- 전달하려는 학생명 -->\
+                        <span class="std-name">To. '+guestbook.user_name+'</span>\
+                        <!-- 작성일 -->\
+                        <span class="created-at">'+guestbook.create_date.substr(0,10)+'</span>\
+                    </div>\
+                    <!-- 방명록 내용 -->\
+                    <p class="message">'+guestbook.contents+'</p>\
+                </article>')
+			}
+			$('.guestbook-list').html(template)
+		}
+	});
+}
+
+$('.guestbook-create-form').submit(function(){
+	var contents = $('textarea').val();
+	var to_user_no = $('[name="select_name"]').val();
+	if(contents==''){
+		alert('내용을 입력해주세요!');
+		return false;
+	}
+	$.ajax({
+		// url : '/2021/guestbook',
+        url : 'http://127.0.0.1:5502/smvd-guest/index.html',
+		data: {contents:contents,to_user_no : to_user_no,mode:'add'},
+		type:'POST',
+		dataType:'JSON',
+		success: function(data){
+			if(data.result=='1'){
+				$('textarea,[name="select_name"]').val('');
+				getList();
+				setTimeout(function(){
+				$('.guestbook-list .guestbook-item:eq(0)').fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200)
+				},100)
+				}
+		}
+	});
+
+	return false;
+});
+</script>
+
+
+</html>
+
